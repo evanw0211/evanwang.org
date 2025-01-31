@@ -1,4 +1,4 @@
-base_url = "https://evanwang-org.pages.dev"     # Domain name of your website
+base_url = "https://evanwang.org"     # Domain name of your website
 title = "Evan Wang"
 description = "Don't Panic!"
 default_language = "en"
