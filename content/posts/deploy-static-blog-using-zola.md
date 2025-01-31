@@ -122,13 +122,18 @@ git push
 |Build command|zola build|
 |Build directory|public|
 
-在下面的*Environment variables (advanced)*中新建一个变量`ZOLA_VERSION`指定你的zola版本。
+在下面的*Environment variables (advanced)* 新建以下变量[^3]：
 
-例如，现在的最新版本是`0.19.2`, `ZOLA_VERSION` = `0.19.2`。
+| Variable name | Value|
+| ------------- | -------------- |
+| `ZOLA_VERSION` | `0.19.2` |
+|`UNSTABLE_PRE_BUILD`| `asdf plugin add zola <https://github.com/salasrod/asdf-zola> && asdf install zola 0.19.2 && asdf global zola 0.19.2`|
+
+若不添加第二个变量会出现部署错误，value内的版本号可随zola更新调整。写这篇教程时zola的最新版本是`0.19.2`。
 
 点击*Save and Deploy*，开始你的第一次部署。在部署完成后，你可以在``<你的项目名>.pags.dev`` 查看你的blog。
 
-你可以在`config.toml`中将base_url 的值指向这个子域名
+你可以在`config.toml`中将`base_url` 的值指向这个子域名
 
 例如：
 
@@ -137,7 +142,7 @@ git push
 base_url = "https://my-zola-project.pages.dev"
 ```
 
-绑定自定义域名请参考[Custom domains · Cloudflare Pages docs](https://developers.cloudflare.com/pages/configuration/custom-domains/)
+绑定自定义域名请参考[Custom domains · Cloudflare Pages docs](https://developers.cloudflare.com/pages/configuration/custom-domains/)，之后将`base_url`指向你新绑定的域名即可。
 
 ## 部署到Github Pages
 
@@ -147,3 +152,4 @@ TODO
 
 [^1]:<https://github.com/git-guides> GitHub Git Guide
 [^2]:<https://developers.cloudflare.com/pages/framework-guides/deploy-a-zola-site/> Cloudflare Pages docs
+[^3]:<https://www.getzola.org/documentation/deployment/cloudflare-pages/> Zola docs
