@@ -4,7 +4,7 @@ date = 2025-01-31
 draft = false
 
 [taxonomies]
-categories = ["tutorial"]
+categories = ["tutorial",]
 tags = ["zola",]
 +++
 
