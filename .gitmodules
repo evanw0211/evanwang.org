@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 [submodule "themes/serene"]
 	path = themes/serene
 	url = https://github.com/isunjn/serene.git
 	branch = latest
+=======
+[submodule "themes/blowfish"]
+	path = themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+	branch = main
+>>>>>>> origin/hugo
