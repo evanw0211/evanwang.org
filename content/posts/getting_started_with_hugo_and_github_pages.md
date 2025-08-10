@@ -102,7 +102,7 @@ defaultContentLanguage = "en"
 hugo server
 ```
 
-### Github Pages 部署
+## Github Pages 部署
 
 ```sh
 mkdir -p .github/workflows
@@ -220,7 +220,7 @@ jobs:
 
 在GitHub Repo 设置里找到Pages,选择GitHub action,等待完成后即可在你的GitHub用户名.github.io查看你部署的网站.
 
-### Cloudflare Pages 部署
+## Cloudflare Pages 部署
 
 [查看Pages 官方文档](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
 )详细了解.
