@@ -71,10 +71,10 @@ cd evanwang.org
 git init
 ```
 
-
+以子模块的方式添加主题到 `theme` 目录
 
 ```sh
-git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
+git submodule add  --depth 1 -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 
 删除生成的`hugo.toml`,并复制主题提供的配置文件模板
@@ -84,7 +84,7 @@ rm hugo.toml
 cp -r themes/blowfish/config/ .
 ```
 
-修改 config/_default/hugo.toml ,取消第五行的注释
+修改 config/_default/hugo.toml ,取消 `theme = "blowfish"`前的注释.
 
 ```toml
 # -- Site Configuration --
