@@ -70,5 +70,4 @@ enableEmoji = true
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
-
+    dir = ':cacheDir/img'
