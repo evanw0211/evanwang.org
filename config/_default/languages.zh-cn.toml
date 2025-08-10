@@ -1,12 +1,12 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
-weight = 1
-title = "Blowfish"
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 4
+title = "Evan Wang"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "简体中文"
+  isoCode = "zh-cn"
   rtl = false
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
@@ -14,9 +14,9 @@ title = "Blowfish"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
+[params.author]
+  name = "Evan Wang"
+  email = "evanwang0211@gmail.com"
 #   image = "img/blowfish_logo.png"
 #   imageQuality = 96
 #   headline = "I'm only human"
