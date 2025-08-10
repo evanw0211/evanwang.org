@@ -1,7 +1,7 @@
 +++
 date = '2025-08-09T10:23:10+08:00'
 draft = false
-title = 'Getting Started with Hugo and Github Pages'
+title = 'Hugo 简单上手及部署'
 +++
 
 ## 安装Hugo 与 git
@@ -218,7 +218,14 @@ jobs:
 
 然后将本地repo push 到你新建的repo.
 
-在GitHub Repo 设置里找到Pages,选择GitHub action,结束.
+在GitHub Repo 设置里找到Pages,选择GitHub action,等待完成后即可在你的GitHub用户名.github.io查看你部署的网站.
+
+### Cloudflare Pages 部署
+
+[查看Pages 官方文档](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
+)详细了解.
+只需要将本地推送到GitHub后在cloudflare新建一个pages服务即可,无需其他操作.
+绑定域名可查看cloudflare的文档.
 
 ### 主题配置
 
