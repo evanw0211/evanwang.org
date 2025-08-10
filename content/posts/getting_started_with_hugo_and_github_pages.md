@@ -110,7 +110,7 @@ mkdir -p .github/workflows
 
 创建`hugo.tonl`
 
-```yoml
+```yml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
