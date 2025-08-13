@@ -84,7 +84,16 @@ rm hugo.toml
 cp -r themes/blowfish/config/ .
 ```
 
-修改 config/_default/hugo.toml ,取消 `theme = "blowfish"`前的注释.
+顺便也copy一下`.gitignore`
+
+```sh
+cp themes/blowfish/.gitignore .
+```
+
+如果你在使用vscode可以把`.vscode`添加到文件里.
+
+
+修改 `config/_default/hugo.toml` ,删除 `theme = "blowfish"`前的`# `.
 
 ```toml
 # -- Site Configuration --
