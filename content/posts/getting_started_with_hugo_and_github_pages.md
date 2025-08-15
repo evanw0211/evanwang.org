@@ -116,7 +116,7 @@ hugo server
 mkdir -p .github/workflows
 ```
 
-创建`.github/workflows/hugo.ynl`,将以下内容复制到新建的`hugo.toml`中.
+创建`.github/workflows/hugo.yaml`,将以下内容复制到新建的`hugo.yaml`中.
 
 ```yml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
