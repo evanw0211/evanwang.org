@@ -92,7 +92,7 @@ cp themes/blowfish/.gitignore .
 
 如果你在使用vscode可以把`.vscode`添加到文件里.
 
-修改 `config/_default/hugo.yml` ,删除 `theme = "blowfish"`前的`# `.
+修改 `config/_default/hugo.toml` ,删除 `theme = "blowfish"`前的`# `.
 
 ```toml
 # -- Site Configuration --
@@ -116,7 +116,7 @@ hugo server
 mkdir -p .github/workflows
 ```
 
-创建`.github/workflows/hugo.tonl`,将以下内容复制到新建的`hugo.toml`中.
+创建`.github/workflows/hugo.ynl`,将以下内容复制到新建的`hugo.toml`中.
 
 ```yml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
