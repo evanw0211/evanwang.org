@@ -92,7 +92,7 @@ cp themes/blowfish/.gitignore .
 
 如果你在使用vscode可以把`.vscode`添加到文件里.
 
-修改 `config/_default/hugo.toml` ,删除 `theme = "blowfish"`前的`# `.
+修改 `config/_default/hugo.yml` ,删除 `theme = "blowfish"`前的`# `.
 
 ```toml
 # -- Site Configuration --
