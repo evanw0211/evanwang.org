@@ -50,7 +50,7 @@ hugo new site YourFolderName
 
 完成后你新建目录的内容大概是这样:
 
-```
+```plaintest
 my-site/
 ├── archetypes/
 │   └── default.md
@@ -92,7 +92,7 @@ cp themes/blowfish/.gitignore .
 
 如果你在使用vscode可以把`.vscode`添加到文件里.
 
-修改 `config/_default/hugo.toml` ,删除 `theme = "blowfish"`前的`# `.
+修改 `config/_default/hugo.toml` ,删除 `theme = "blowfish"`前的`#`.
 
 ```toml
 # -- Site Configuration --
